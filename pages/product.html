@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Store || Us</title>
+        <link rel="stylesheet" href="../css/normalize.css">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet"> 
+    
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+<body>
+    <header class="header">
+        <div class="header__container">
+
+            <div class="header__bar">
+                <a href="index.html"> 
+                    <img class="header__logo" src="../img/logo.svg" alt="logo">
+                </a>
+
+                <nav class="navbar">
+                    <a class="navbar__link" href="../index.html">Home</a>
+                    <a class="navbar__link" href="us.html">Us</a>
+                    <a class="navbar__link" href="blog.html">Blog</a>
+                    <a class="navbar__link" href="shop.html">Shop</a>
+                </nav>
+            </div><!-- end navbar -->
+    </header>
+
+    
+
+    <main class="container">
+        <div class="product">
+            <picture>
+                <source srcset="../img/guitarra_11.avif" type="image/avif">
+                <source srcset="../img/guitarra_11.webp" type="image/webp">
+                <img class="product__img" loading="lazy" src="../img/guitarra_11.jpg" alt="guitar">
+            </picture>
+
+            <div class="product__content">
+                <h3 class="product__name">Reed</h3>
+                <p class="product__info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam neque aliquam praesentium dolor rem minus, blanditiis repellat a eius, voluptatum voluptatem possimus! Aliquid, dolore voluptas vitae nesciunt numquam recusandae ullam.</p>
+                <p class="product__price">$299</p>
+                <form class="product__form">
+                    <label class="product__laber">Quantity</label>
+                    <select name="" id="" class="product__quantity">
+                        <option value="">--Choose--</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                    </select>
+                    <input type="submit" value="Add to cart" class="product__btn">
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <footer class="footer">
+        <div class="container footer__content">
+            <nav class="footer__navbar">
+                <a class="footer__link" href="../index.html">Home</a>
+                <a class="footer__link" href="us.html">Us</a>
+                <a class="footer__link" href="blog.html">Blog</a>
+                <a class="footer__link" href="shop.html">Shop</a>
+            </nav>
+
+            <p class="footer__copyright">All rights reserverd.  &#169Nehuen Perticarari 2022</p>
+        </div>
+       
+    </footer>
+    
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
